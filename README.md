@@ -91,4 +91,3 @@ Abra `ProjectBrowser`, navegue hasta el recurso/toma y el renderizado/playblast 
 ![](/CAHAPTER-1/sources/convert.webp)
 
 Se crea un archivo de video y en la lista de versiones aparece una nueva versión con una terminación `(mp4)`. La ruta al archivo de video se copia en su portapapeles y puede seleccionar `Abrir en el explorador` en el menú contextual de la versión para abrir la ubicación del archivo de video en el explorador de Windows.
-
