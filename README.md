@@ -21,3 +21,9 @@ El siguiente paso es crear archivos de escena, donde puede guardar su trabajo. P
 En `ProjectBrowser` puede crear archivos de escena en la pestaña `Activos` y `Tomas`. Antes de que pueda crear un archivo de escena, debe crear un recurso/toma. Puede hacerlo a través del menú contextual (clic derecho) o haciendo doble clic en un área vacía de la lista de activos/disparos. También debe crear un paso de canalización en la lista `Pasos`. Puede hacerlo seleccionando un recurso/disparo y haciendo doble clic en la lista de pasos.
 
 Cuando haya seleccionado un paso (en la pestaña `Tomas` debe seleccionar una categoría) puede crear un nuevo archivo de escena en la lista `Archivos`. Abra el menú contextual (haga clic con el botón derecho en la lista de archivos) y elija `Crear archivo vacío` o `Crear nueva versión a partir de la actuaL` (solo disponible si está dentro de una aplicación DCC).
+
+![](/CAHAPTER-1/sources/sceneCreated.webp)
+
+Si está en una aplicación DCC, el nuevo archivo de escena se abre inmediatamente. De lo contrario, puede hacer doble clic en la versión en ProjectBrowser para abrirla.
+
+Para crear nuevas versiones de su archivo de escena, puede usar la opción `guardar` en el estante/menú Prism de su aplicación DCC o las diferentes opciones en el menú contextual del `ProjectBrowser`.
