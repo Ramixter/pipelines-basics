@@ -39,3 +39,14 @@ Para exportar objetos con Prism tienes que usar la herramienta `StateManager`. E
 La segunda lista en el lado izquierdo de `StateManager` es la lista de estados de exportación. Para exportar objetos, debe crear un estado de exportación. Puede hacerlo haciendo clic en el botón `Exportar` o a través del menú contextual de la lista de exportación. Cuando creó un estado de exportación, seleccione el estado para ver sus propiedades en el lado derecho del `StateManager`.
 
 ![](/CAHAPTER-1/sources/statemanager.webp)
+
+Si la opción `Exportar toda la escena` no está seleccionada, solo se exportarán los objetos de la lista de `objetos`. Seleccione los objetos que desea exportar en la escena y presione el botón "Agregar seleccionados" para agregarlos a la lista. Puede eliminar objetos de la lista a través del menú contextual.
+
+Es una buena práctica establecer un nombre de tarea significativo para cada exportación. Por ejemplo: `CharacterAnim` o `EnvironmentGeo`.
+
+Ahora necesita ejecutar el estado de exportación para exportar los objetos en su lista. Para ello, publique su escena: establezca un comentario (por ejemplo, "Animación más rápida") en el campo de comentarios en la parte inferior izquierda del StateManager y presione el botón `Publicar` para ejecutar todos los estados en la lista de exportación. Aparece una ventana emergente cuando finaliza la exportación.
+
+![](/CAHAPTER-1/sources/publishExport.webp)
+
+Durante la publicación, su escena se guardó como una nueva versión. Ahora puede cerrar `StateManager` y su archivo de escena si lo desea.
+
