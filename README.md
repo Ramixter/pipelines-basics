@@ -1,3 +1,12 @@
+# ESTO PRETENDE SER UNA GUÍA DE PIPELINES CON PRISM
+
+Prism es un software que ayuda a la gestión de las pipelines de los estudios de producción asignando tareas, comentarios y muchas más cosas que podemos encontrarnos en el mundo de los estudios de VFX.
+
+**ESTA GUÍA SE IRÁ ACTUALIZANDO A MEDIDA QUE SE VAYAN CORRIGIENDO ERRORES Y SE IRÁ ACTUALIZANDO CONSTANTENTE**
+
+
+
+
 # Crear un proyecto
 
 La primera vez que iniciamos Prism nos aparece un cuadro de diálogo que nos pide que abra un proyecto existente o que cree uno nuevo.
