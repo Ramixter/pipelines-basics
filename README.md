@@ -1,3 +1,5 @@
 # Crear un proyecto
 
-Si instaló Prism por primera vez, aparece un cuadro de diálogo después de la instalación, que le pide que abra un proyecto existente o que cree uno nuevo.
+La primera vez que iniciamos Prism nos aparece un cuadro de diálogo que nos pide que abra un proyecto existente o que cree uno nuevo.
+
+![](/CREATE-A-PROJECT/sources/noProject.webp)
