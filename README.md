@@ -27,3 +27,15 @@ Cuando haya seleccionado un paso (en la pestaña `Tomas` debe seleccionar una ca
 Si está en una aplicación DCC, el nuevo archivo de escena se abre inmediatamente. De lo contrario, puede hacer doble clic en la versión en ProjectBrowser para abrirla.
 
 Para crear nuevas versiones de su archivo de escena, puede usar la opción `guardar` en el estante/menú Prism de su aplicación DCC o las diferentes opciones en el menú contextual del `ProjectBrowser`.
+
+# Exportar objetos
+
+Para intercambiar datos entre diferentes archivos de escena, los datos (u objetos) deben exportarse. Solo los datos que se exportaron desde una escena se pueden importar a otra escena. Esto es útil, por ejemplo, cuando se debe importar un activo de personaje a diferentes escenas. Además, cuando desea cambiar a otro paso de canalización y desea llevar los objetos a otro software, debe exportar los objetos.
+
+Para exportar objetos con Prism tienes que usar la herramienta `StateManager`. Esta herramienta se puede encontrar en el estante/menú Prism de su aplicación DCC.
+
+![](/CAHAPTER-1/sources/mayaShelf.webp)
+
+La segunda lista en el lado izquierdo de `StateManager` es la lista de estados de exportación. Para exportar objetos, debe crear un estado de exportación. Puede hacerlo haciendo clic en el botón `Exportar` o a través del menú contextual de la lista de exportación. Cuando creó un estado de exportación, seleccione el estado para ver sus propiedades en el lado derecho del `StateManager`.
+
+![](/CAHAPTER-1/sources/statemanager.webp)
