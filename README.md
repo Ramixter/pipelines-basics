@@ -54,4 +54,12 @@ Durante la publicación, su escena se guardó como una nueva versión. Ahora pue
 
 Después de haber exportado objetos de una escena, normalmente desea importarlos a otra escena. Crea una nueva escena a través de ProjectBrowser en la que quieras importar tus objetos. En Prism, las importaciones se gestionan a través de `StateManager` como las exportaciones. Abra StateManager desde el estante/menú de Prism y haga clic en el botón `Importar` encima de la lista de importación. Se abre el cuadro de diálogo "Seleccionar tarea" y le muestra todas las exportaciones de todas las diferentes aplicaciones DCC en su proyecto actual.
 
-![](/CAHAPTER-1/sources/publishExport.webp)
+![](/CAHAPTER-1/sources/selectTask.webp)
+
+Seleccione un aSSET/SHOT y un nombre de tarea para mostrar todas las versiones de esta tarea en el lado derecho. Para importar una versión, haga doble clic en ella. Se cierra el cuadro de diálogo `Seleccionar tarea` y se crea un nuevo estado de importación en `StateManager`. La versión ahora está importada a su escena y puede cerrar el StateManager.
+
+# Crear una explosión de una escena
+
+Una explosión de reproducción es una vista previa de ventana gráfica de su archivo de escena actual. Cuando trabaje en un proyecto, puede usar playblasts para obtener una vista previa de una animación o simulación sin esperar las representaciones.
+
+La creación de playblasts se realiza a través de StateManager, similar a la exportación de objetos. Abra StateManager desde el estante/menú de Prism y cree un estado de playblast en la lista de exportación haciendo clic en el botón "Playblast" o a través del menú contextual.
