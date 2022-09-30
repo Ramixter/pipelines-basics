@@ -50,3 +50,8 @@ Ahora necesita ejecutar el estado de exportación para exportar los objetos en s
 
 Durante la publicación, su escena se guardó como una nueva versión. Ahora puede cerrar `StateManager` y su archivo de escena si lo desea.
 
+# Importar objetos
+
+Después de haber exportado objetos de una escena, normalmente desea importarlos a otra escena. Crea una nueva escena a través de ProjectBrowser en la que quieras importar tus objetos. En Prism, las importaciones se gestionan a través de `StateManager` como las exportaciones. Abra StateManager desde el estante/menú de Prism y haga clic en el botón `Importar` encima de la lista de importación. Se abre el cuadro de diálogo "Seleccionar tarea" y le muestra todas las exportaciones de todas las diferentes aplicaciones DCC en su proyecto actual.
+
+![](/CAHAPTER-1/sources/publishExport.webp)
