@@ -58,8 +58,37 @@ Después de haber exportado objetos de una escena, normalmente desea importarlos
 
 Seleccione un aSSET/SHOT y un nombre de tarea para mostrar todas las versiones de esta tarea en el lado derecho. Para importar una versión, haga doble clic en ella. Se cierra el cuadro de diálogo `Seleccionar tarea` y se crea un nuevo estado de importación en `StateManager`. La versión ahora está importada a su escena y puede cerrar el StateManager.
 
-# Crear una explosión de una escena
+# Crear una explosión(playblast) de una escena
 
 Una explosión de reproducción es una vista previa de ventana gráfica de su archivo de escena actual. Cuando trabaje en un proyecto, puede usar playblasts para obtener una vista previa de una animación o simulación sin esperar las representaciones.
 
-La creación de playblasts se realiza a través de StateManager, similar a la exportación de objetos. Abra StateManager desde el estante/menú de Prism y cree un estado de playblast en la lista de exportación haciendo clic en el botón "Playblast" o a través del menú contextual.
+La creación de playblasts se realiza a través de `StateManager`, similar a la exportación de objetos. Abra `StateManager` desde el estante/menú de Prism y cree un estado de playblast en la lista de exportación haciendo clic en el botón `Playblast` o a través del menú contextual.
+
+![](/CAHAPTER-1/sources/playblast.webp)
+
+Establezca un nombre de tarea para el estado de reproducción y agregue un comentario en el campo de comentarios en la parte inferior izquierda de StateManager. Presione el botón `Publicar` para ejecutar el estado de reproducción y las imágenes se guardarán en el disco.
+
+Una vez finalizada la publicación, puede reproducir su playblast. Esto se hace a través del `ProjectBrowser`. Abra `ProjectBrowser` desde el estante/menú de Prism y seleccione el recurso/toma en el que está trabajando actualmente. En la mitad inferior del `ProjectBrowser`, puede seleccionar su tarea de playblast y una versión de esta tarea. Ahora se mostrará una pequeña vista previa en la esquina inferior derecha del `ProjectBrowser`. Haga doble clic cuando tenga instalado RV o DJV para reproducir la secuencia de imágenes. También puede abrir la carpeta en el explorador de archivos seleccionando `Abrir en el explorador` en el menú contextual de la imagen de vista previa.
+
+![](/CAHAPTER-1/sources/pbreview.webp)
+
+# Renderiza tu escena
+
+Renderizar una escena en Prism es muy parecido a crear un playblast solo que con un tipo de estado diferente.
+
+Debe abrir `StateManager` y crear un estado de `ImageRender` en la lista de exportación. Ahora solo necesita establecer un nombre de tarea y un comentario de publicación antes de poder publicar la escena. Durante la publicación, se renderizará tu escena. Para revisar su renderizado, puede abrir ProjectBrowser y navegar a la versión y reproducir la secuencia como se describe en el capítulo Crear un playblast.
+
+# Crear un video a partir de representaciones
+
+Después de renderizar su escena, puede crear un archivo de video a partir de la secuencia de imágenes. Alternativamente, puede llevar las imágenes a Nuke para una composición adicional, pero para esta descripción general solo convertiremos las representaciones sin procesar.
+
+Las representaciones producidas por Prism generalmente están en formato OpenEXR, lo cual es bueno para la composición, pero no muy útil cuando desea enviarlo a personas externas, que pueden no tener un reproductor multimedia que admita secuencias .exr.
+
+Con Prism puede crear un archivo de video a partir de sus representaciones (y también reproducciones) con solo unos pocos clics.
+
+Abra `ProjectBrowser`, navegue hasta el recurso/toma y el renderizado/playblast que desea convertir. Luego haga clic con el botón derecho en la imagen de vista previa y elija `Convertir->mp4`.
+
+![](/CAHAPTER-1/sources/convert.webp)
+
+Se crea un archivo de video y en la lista de versiones aparece una nueva versión con una terminación `(mp4)`. La ruta al archivo de video se copia en su portapapeles y puede seleccionar `Abrir en el explorador` en el menú contextual de la versión para abrir la ubicación del archivo de video en el explorador de Windows.
+
