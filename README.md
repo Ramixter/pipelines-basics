@@ -4,6 +4,8 @@ Prism es un software que ayuda a la gestión de las pipelines de los estudios de
 
 **ESTA GUÍA SE IRÁ ACTUALIZANDO A MEDIDA QUE SE VAYAN CORRIGIENDO ERRORES Y SE IRÁ ACTUALIZANDO CONSTANTENTE**
 
+Por ejemplo podría ayudarnos a ver las escenas en todos sus ambitos, como por ejemplo los ejemplos de acontinuación:
+
 
 
 
